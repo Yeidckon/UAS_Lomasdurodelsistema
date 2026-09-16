@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodo SAW (TDMC)</title>
+    <link rel="stylesheet" href="Estilo_perron.css" />
+  </head>
+  <body>
+    <h2><b>Metodo SAW en la Toma de Decisiones Multi-Criterio</b></h2>
+    <!--DIV PRINCIPAL -->
+    <div class="config">
+      <div class="campo">
+        <label for="in1">Numero de alternativas</label>
+        <input type="number" name="num_alts" id="in1" />
+      </div>
+      <div class="campo">
+        <label for="in2">Numero de criterios</label>
+        <input type="number" name="num_crits" id="in2" />
+      </div>
+      <button id="generar" class="oculto">Generar formulario</button>
+    </div>
+
+    <div id="alternativas" class="config"></div>
+    <div id="criterios" class="config"></div>
+
+    <input type="button" value="calcular" id="calcular" class="oculto" />
+
+    <div id="resultados" class="oculto">
+      <h3>Resultados</h3>
+      <table id="tabla_resultados"></table>
+    </div>
+
+    <input type="button" value="Invertir orden" id="invertir" class="oculto" />
+    <script src="Logica.js"></script>
+  </body>
+</html>

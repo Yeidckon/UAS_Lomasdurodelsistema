@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  background-color: #6989a4;
+}
+
+h2{
+      padding: 25px;
+}
+
+.oculto {
+  display: none;
+}
+
+.config {
+  margin: auto;
+  background-color: #cadcec;
+  padding-left: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.campo {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 10px;
+}
+
+.config button {
+  align-self: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #cadcec ;
+  font-weight: bold;
+  color: black;
+  border: #6989a4;        
+  padding: 10px;        
+  cursor: pointer;        
+  font-size: 15px;        
+}
+
+button:hover {
+  background-color: #6989a4;
+}
+
